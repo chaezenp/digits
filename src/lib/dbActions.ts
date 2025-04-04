@@ -31,6 +31,10 @@ export async function addStuff(stuff: { name: string; quantity: number; owner: s
   redirect('/list');
 }
 
+/**
+ * Adds a new contact to the database.
+ * @param contact an object with the following properties: firstName, lastName, address, image, description, owner.
+ */
 export async function addContact(contact: {
   firstName: string;
   lastName: string;
