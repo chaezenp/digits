@@ -18,7 +18,7 @@ $
 
 ```
 
-Second, [download a copy of Digits](https://github.com/chaezenp/digits), and click the "Use this template" button. Complete the dialog box to create a new repository that you own that is initialized with this template's files.
+Second, [download a copy of Digits](https://github.com/chaezenp/digits).
 
 Third, cd into your app/ directory to install the required libraries with:
 
