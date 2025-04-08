@@ -72,27 +72,19 @@ $
 When you retrieve the app at http://localhost:3000, this is what should be displayed:
 <img src="doc/DigitsLandingPage.png">
 
-The next step is to use the Login menu to either Login to an existing account or register a new account.
+#### Register
 
-#### Login page
-
-Clicking on the Login link, then on the Sign In menu item displays this page:
-
-<img src="doc/digits-signin-page.png">
-
-#### Register page
-
-Alternatively, clicking on the Login link, then on the Sign Up menu item displays this page:
+If you don't have an account on the system, clicking on the Login link, then on the Sign Up menu item displays this page:
 
 <img src="doc/digits-register-page.png">
 
-#### Landing (after Login) page, non-Admin user
+#### Landing (after Login) page
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
 
-<img src="doc/digits-landing-after-login-page.png">
+<img src="doc/digits-landing-after-login.png">
 
-You can now add new Stuff documents, and list the Stuff you have created. Note you cannot see any Stuff created by other users.
+You can now add new Contacts, and list the Contacts you have created. Note you cannot see any Stuff created by other users.
 
 #### Add Stuff page
 
@@ -102,25 +94,23 @@ After logging in, here is the page that allows you to add new Contacts:
 
 #### List Stuff page
 
-After logging in, here is the page that allows you to list all the Stuff you have created:
+After logging in, here is the page that allows you to list all the Contacts you have created:
 
 <img src="doc/digits-list-contacts-page.png">
 
-You click the "Edit" link to go to the Edit Stuff page, shown next.
+Additionally, you can use the note feature to leave timestamped notes on any contact.
+
+You click the "Edit" link to go to the Edit Contacts page, shown next.
 
 #### Edit Stuff page
 
-After clicking on the "Edit" link associated with an item, this page displays that allows you to change and save it:
+After clicking on the "Edit" link associated with a contact, the page it displays allows you to change and save it:
 
 <img src="doc/digits-contacts-edit-page.png">
 
-#### Landing (after Login), Admin user
+#### Admin user
 
-You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
+You can define an "admin" user in the settings.json file. When a user has the Admin role, they get access to a special NavBar link that retrieves a page listing all Contacts associated with their respective owners:
 
 <img src="doc/digits-admin-page.png">
-
-#### Admin page (list all users stuff)
-
-To provide a simple example of a "super power" for Admin users, the Admin page lists all of the Stuff by all of the users:
 
