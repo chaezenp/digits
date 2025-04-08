@@ -75,7 +75,7 @@ When you retrieve the app at http://localhost:3000, this is what should be displ
 
 #### Register
 
-If you don't have an account on the system, clicking on the Login link, then on the Sign Up menu item displays this page:
+If you don't have an account on the system, you can click on the Login link, then the sign up button, and the Sign Up menu will display this page:
 
 <img src="doc/digits-register-page.png">
 
@@ -85,7 +85,7 @@ Once you log in (either to an existing account or by creating a new one), the na
 
 <img src="doc/digits-landing-after-login.png">
 
-You can now add new Contacts, and list the Contacts you have created. Note you cannot see any Contacts created by other users.
+You can now add new Contacts and list the Contacts you have created. Note you cannot see any Contacts created by other users.
 
 #### Add Contacts page
 
@@ -99,13 +99,13 @@ After logging in, here is the page that allows you to list all the Contacts you 
 
 <img src="doc/digits-list-contacts-page.png">
 
-Additionally, you can use the note feature to leave timestamped notes on any contact.
+Additionally, you can use the note feature to leave timestamped notes on any Contact.
 
 You click the "Edit" link to go to the Edit Contacts page, shown next.
 
 #### Edit Contacts page
 
-After clicking on the "Edit" link associated with a contact, the page it displays allows you to change and save it:
+After clicking on the "Edit" link associated with a Contact, the page it displays allows you to change and save it:
 
 <img src="doc/digits-contacts-edit-page.png">
 
