@@ -227,8 +227,7 @@ By default, each user only sees the Stuff that they have created. However, the s
 #### Landing page
 
 When you retrieve the app at http://localhost:3000, this is what should be displayed:
-
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/DigitsLandingPage.png)
+<img src="doc/DigitsLandingPage.png">
 
 The next step is to use the Login menu to either Login to an existing account or register a new account.
 
@@ -236,19 +235,19 @@ The next step is to use the Login menu to either Login to an existing account or
 
 Clicking on the Login link, then on the Sign In menu item displays this page:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/digits-signin-page.png)
+<img src="doc/digits-signin-page.png">
 
 #### Register page
 
 Alternatively, clicking on the Login link, then on the Sign Up menu item displays this page:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/digits-register-page.png)
+<img src="doc/digits-register-page.png">
 
 #### Landing (after Login) page, non-Admin user
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/digits-landing-after-login.png)
+<img src="doc/digits-landing-after-login-page.png">
 
 You can now add new Stuff documents, and list the Stuff you have created. Note you cannot see any Stuff created by other users.
 
@@ -256,13 +255,13 @@ You can now add new Stuff documents, and list the Stuff you have created. Note y
 
 After logging in, here is the page that allows you to add new Contacts:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/digits-add-contacts-page.png)
+<img src="doc/digits-add-contacts-page.png">
 
 #### List Stuff page
 
 After logging in, here is the page that allows you to list all the Stuff you have created:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/digits-list-contacts-page.png)
+<img src="doc/digits-list-contacts-page.png">
 
 You click the "Edit" link to go to the Edit Stuff page, shown next.
 
@@ -270,13 +269,13 @@ You click the "Edit" link to go to the Edit Stuff page, shown next.
 
 After clicking on the "Edit" link associated with an item, this page displays that allows you to change and save it:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/digits-contacts-edit-page.png)
+<img src="doc/digits-contacts-edit-page.png">
 
 #### Landing (after Login), Admin user
 
 You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/digits-admin-page.png)
+<img src="doc/digits-admin-page.png">
 
 #### Admin page (list all users stuff)
 
