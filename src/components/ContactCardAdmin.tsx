@@ -4,7 +4,7 @@ import { Contact, Note } from '@prisma/client';
 import { Card, Image, ListGroup } from 'react-bootstrap';
 import NoteItem from '@/components/NoteItem';
 
-/* Renders a single row in the List Stuff table. See list/page.tsx. */
+/* Renders a single row in the List Contact table. See list/page.tsx. */
 const ContactCardAdmin = ({ contact, notes }: { contact: Contact, notes: Note[] }) => (
   <Card className="h-100">
     <Card.Header>
@@ -22,13 +22,13 @@ const ContactCardAdmin = ({ contact, notes }: { contact: Contact, notes: Note[] 
       <Card.Text>
         {contact.description}
       </Card.Text>
-      <ListGroup variant="flush">
-        {notes.map((note) => <NoteItem key={note.id} note={note} />)}
-      </ListGroup>
       <p className="blockquote-footer">
         Owner:
         {contact.owner}
       </p>
+      <ListGroup variant="flush">
+        {notes.map((note) => <NoteItem key={note.id} note={note} />)}
+      </ListGroup>
     </Card.Body>
   </Card>
 );

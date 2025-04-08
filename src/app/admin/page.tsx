@@ -27,8 +27,8 @@ const AdminPage = async () => {
                 {contacts.map((contact) => (
                   <Col key={contact.firstName + contact.lastName}>
                     <ContactCardAdmin
-                    contact={contact}
-                    notes={notes.filter(note => (note.contactId === contact.id))}
+                      contact={contact}
+                      notes={notes.filter(note => (note.contactId === contact.id))}
                     />
                   </Col>
                 ))}
