@@ -1,4 +1,4 @@
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/DigitsLandingPage.png)
+<img src="doc/DigitsLandingPage.png">
 
 Digits is an application that allows users to:
 
