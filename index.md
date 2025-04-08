@@ -70,6 +70,7 @@ $
 #### Landing page
 
 When you retrieve the app at http://localhost:3000, this is what should be displayed:
+
 <img src="doc/DigitsLandingPage.png">
 
 #### Register
@@ -84,15 +85,15 @@ Once you log in (either to an existing account or by creating a new one), the na
 
 <img src="doc/digits-landing-after-login.png">
 
-You can now add new Contacts, and list the Contacts you have created. Note you cannot see any Stuff created by other users.
+You can now add new Contacts, and list the Contacts you have created. Note you cannot see any Contacts created by other users.
 
-#### Add Stuff page
+#### Add Contacts page
 
 After logging in, here is the page that allows you to add new Contacts:
 
 <img src="doc/digits-add-contacts-page.png">
 
-#### List Stuff page
+#### List Contacts page
 
 After logging in, here is the page that allows you to list all the Contacts you have created:
 
@@ -102,7 +103,7 @@ Additionally, you can use the note feature to leave timestamped notes on any con
 
 You click the "Edit" link to go to the Edit Contacts page, shown next.
 
-#### Edit Stuff page
+#### Edit Contacts page
 
 After clicking on the "Edit" link associated with a contact, the page it displays allows you to change and save it:
 
